@@ -25,6 +25,10 @@ node {
          echo "Testing"
        }
 
+       stage('Acceptance Test') {
+         echo "Done"
+       }
+
        stage('Deploy'){
 
          echo 'Push to Repo'
