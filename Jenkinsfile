@@ -22,8 +22,7 @@ node {
        }
 
        stage('Build Docker'){
-
-            // sh './dockerBuild.sh'
+         echo "Testing"
        }
 
        stage('Deploy'){
